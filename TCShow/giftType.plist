@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>money</key>
+		<string>6元</string>
+		<key>limo</key>
+		<string>60钻石</string>
+		<key>mark</key>
+		<string>1</string>
+		<key>payMoney</key>
+		<string>600</string>
+	</dict>
+	<dict>
+		<key>payMoney</key>
+		<string>3000</string>
+		<key>money</key>
+		<string>30元</string>
+		<key>limo</key>
+		<string>300钻石</string>
+		<key>mark</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>payMoney</key>
+		<string>10000</string>
+		<key>money</key>
+		<string>100元</string>
+		<key>limo</key>
+		<string>1000钻石</string>
+		<key>mark</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>payMoney</key>
+		<string>20000</string>
+		<key>money</key>
+		<string>200元</string>
+		<key>limo</key>
+		<string>2000钻石</string>
+		<key>mark</key>
+		<string>4</string>
+	</dict>
+	<dict>
+		<key>payMoney</key>
+		<string>50000</string>
+		<key>money</key>
+		<string>500元</string>
+		<key>limo</key>
+		<string>5000钻石</string>
+		<key>mark</key>
+		<string>5</string>
+	</dict>
+	<dict>
+		<key>payMoney</key>
+		<string>100000</string>
+		<key>money</key>
+		<string>1000元</string>
+		<key>limo</key>
+		<string>10000钻石</string>
+		<key>mark</key>
+		<string>6</string>
+	</dict>
+</array>
+</plist>

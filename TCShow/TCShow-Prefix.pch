@@ -1,0 +1,49 @@
+//
+//  TCShow-Prefix.pch
+//  TCShow
+//
+//  Created by AlexiChen on 16/4/11.
+//  Copyright © 2016年 AlexiChen. All rights reserved.
+//
+
+#ifndef TCShow_Prefix_h
+#define TCShow_Prefix_h
+
+
+// 是否支持富文本显示
+#define kTestChatAttachment 1
+
+// CommonLibrary与TCAdapter自定义控制
+// 以及代码全局配置
+#import "ConstHeader.h"
+#import "ImageHeader.h"
+#import "Macro.h"
+#import "UtilsMacro.h"
+#import "MXWechatConfig.h"
+
+// CommonLibrary
+#import "CommonLibrary.h"
+#import "UIView+IMB.h"
+#import "NSMutableDictionary+Safe.h"
+#import "NSString+IMB.h"
+// TCAdapter
+#import "TCAdapterHeader.h"
+
+#import "TCShowModelHeader.h"
+
+#import "TIMAdapter.h"
+
+#import "CustomUIHeader.h"
+
+#import "AppDelegate.h"
+
+#import "AppUIHeader.h"
+
+#import <AVFoundation/AVAsset.h>
+
+#import "Business.h"
+#import "SARUserInfo.h"
+#import "RequestData.h"
+#import "MJRefresh.h"
+#import "MJExtension.h"
+#endif /* TCShow_Prefix_h */

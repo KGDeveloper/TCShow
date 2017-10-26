@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="messageCell" rowHeight="168" id="KGk-i7-Jjw" customClass="MessageNotiCell">
+            <rect key="frame" x="0.0" y="0.0" width="329" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="329" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultUser" translatesAutoresizingMaskIntoConstraints="NO" id="GWV-Qy-3Sq">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="1Tx-mT-IY3"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="月亮柠檬" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ulT-9z-Smh">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.12941176470588237" green="0.12941176470588237" blue="0.12941176470588237" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="29分钟前" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IrH-mC-96k">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.52941176470588236" green="0.52941176470588236" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你好，欢迎有时间来我的直播间逛逛，记得互相关注哦。。。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gfo-q0-1xY">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.54117647058823526" green="0.54117647058823526" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Gfo-q0-1xY" secondAttribute="bottom" constant="8" id="28H-cz-dmm"/>
+                    <constraint firstItem="Gfo-q0-1xY" firstAttribute="leading" secondItem="ulT-9z-Smh" secondAttribute="leading" id="AX6-8j-eXt"/>
+                    <constraint firstAttribute="trailing" secondItem="IrH-mC-96k" secondAttribute="trailing" constant="15" id="Cv9-1R-VkD"/>
+                    <constraint firstItem="GWV-Qy-3Sq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="GQh-EH-fdM"/>
+                    <constraint firstItem="GWV-Qy-3Sq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="anF-e3-d9z"/>
+                    <constraint firstAttribute="bottom" secondItem="GWV-Qy-3Sq" secondAttribute="bottom" constant="5" id="bOH-gt-rmU"/>
+                    <constraint firstItem="ulT-9z-Smh" firstAttribute="leading" secondItem="GWV-Qy-3Sq" secondAttribute="trailing" constant="10" id="i6y-qH-mXj"/>
+                    <constraint firstItem="IrH-mC-96k" firstAttribute="trailing" secondItem="Gfo-q0-1xY" secondAttribute="trailing" id="mMZ-7x-39y"/>
+                    <constraint firstItem="ulT-9z-Smh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="vbf-4Y-naq"/>
+                    <constraint firstItem="IrH-mC-96k" firstAttribute="top" secondItem="ulT-9z-Smh" secondAttribute="top" id="yeg-vA-o6m"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="userImage" destination="GWV-Qy-3Sq" id="2k0-Hz-fCa"/>
+            </connections>
+            <point key="canvasLocation" x="61.5" y="105"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="defaultUser" width="92" height="92"/>
+    </resources>
+</document>

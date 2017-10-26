@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "a3ab63b4-afe5-274b-9735-0095662ad60e++2717",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "8417ab44-c799-11e4-acac-0d5433960dbe++7792" : {
+
+    },
+    "a3ab63b4-afe5-274b-9735-0095662ad60e++2717" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8417ab44-c799-11e4-acac-0d5433960dbe++7792" : 0,
+    "a3ab63b4-afe5-274b-9735-0095662ad60e++2717" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E89CA7CE-89C8-4BD9-A3CF-05EB325746A3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8417ab44-c799-11e4-acac-0d5433960dbe++7792" : "TCShow\/",
+    "a3ab63b4-afe5-274b-9735-0095662ad60e++2717" : "NewGugeLive%20(Working%20Copy)\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TCShow",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TCShow\/TCShow.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/tc-svn.tencent.com\/bpf\/bpf_OpenSDK_rep",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8417ab44-c799-11e4-acac-0d5433960dbe++7792"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/101.201.197.104\/svn\/ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a3ab63b4-afe5-274b-9735-0095662ad60e++2717"
+    }
+  ]
+}
